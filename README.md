@@ -26,6 +26,8 @@ docker load -i heygem.tar
 ```
 2. 克隆项目
 ```powershell
-
+cd custom_nodes
+git clone https://github.com/singlinhaha/Comfyui_Heygem_Docker.git
 ```
-
+3. 启动项目
+启动comfyui时会自动创建容器并启动heygem服务。服务地址为：http://127.0.0.1:8383
